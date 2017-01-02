@@ -1,0 +1,11 @@
+main: net.zeppelin.auctionhouse.AuctionHouse
+name: AuctionHouse
+version: 0.1
+description: Auctions for your minecraft server.
+author: ZeppelinForDays
+commands:
+  auction:
+    description: Open the auction gui.
+    aliases: auc
+  auction sell [price]:
+    description: Auction an item.
